@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@300&family=Quicksand:wght@300&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    background-color: #141414;
+    z-index: 0;
+}
+
+.fundo {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+section {
+    padding-right: 180px;
+}
+
+header {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    font-family: poppins;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+header ul li a:hover ,
+header ul li a.active
+
+{
+    background: #a61ea6;
+    box-shadow: rgba(0, 0, 0, 0.5) 05px 7px 10px 2px;
+    color: #ffffff
+}
+
+.quadrado {
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+    border: solid 1px white;
+    backdrop-filter: blur(4px);
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: poppins;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+button {
+    width: 195px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    align-items: center;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button:hover {
+    background-color: rgba(166, 30, 166, 0.6);
+}
+
+.primeiro {
+    margin-left: 45px;
+}
+
+strong {
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+.google {
+    width: 25px;
+}
+
+.github {
+    width: 25px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    font-family: poppins;
+    font-weight: bold
+}
+
+h6 {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 45px;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 1px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    width: 400px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.escrever::placeholder {
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: poppins;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.Log-in {
+    color: white;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+button:active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.registre-se {
+    color: white;
+}
+
+a {
+    color: #FFA500;
+}
